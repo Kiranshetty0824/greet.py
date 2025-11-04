@@ -11,3 +11,5 @@ A simple Python script that greets the user based on the current time of day.
    ```bash
    git clone https://github.com/your-username/greet-script.git
    cd greet-script
+
+python greet.py
