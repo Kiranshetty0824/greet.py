@@ -14,6 +14,23 @@ A simple Python script that greets the user based on the current time of day.
 
 python greet.py
 
+#code of this 
+from datetime import datetime
+
+def greet_user(name):
+    """Return a greeting message based on the current time."""
+    hour = datetime.now().hour
+    if hour < 12:
+        greeting = "Good morning"
+    elif hour < 18:
+        greeting = "Good afternoon"
+    else:
+        greeting = "Good evening"
+    return f"{greeting}, {name}!"
+
+if __name__ == "__main__":
+    user_name = input("Enter your name: ")
+    print(greet_user(user_name))
 
 
 ---
