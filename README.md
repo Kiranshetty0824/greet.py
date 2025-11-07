@@ -47,3 +47,4 @@ if __name__ == "__main__":
    git branch -M main
    git remote add origin https://github.com/your-username/greet-script.git
    git push -u origin main
+git push-u origin main
